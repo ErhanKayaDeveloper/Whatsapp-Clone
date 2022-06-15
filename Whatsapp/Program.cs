@@ -8,6 +8,7 @@ namespace Whatsapp
         [STAThread]
         static void Main()
         {
+            //Merhaba asdas
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
