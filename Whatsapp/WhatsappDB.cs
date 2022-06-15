@@ -8,6 +8,7 @@ namespace Whatsapp
     {
         public static SqlConnection connection = new("Data Source = .; Initial Catalog = WhatsappDB; Integrated Security = True;");
         //asdada
+        //Merhaba
         public static int GetData(string query, int index)
         {
             connection.Open();
